@@ -2,7 +2,7 @@
 -- of settings from Titan's store.
 -- Run from project root: lua Tests/db_test.lua
 
-local H = dofile("Tests/harness.lua")
+local H = dofile("Tools/HonourBound/harness.lua")
 local DB = dofile("WeaponJourneyDB.lua")
 
 H.start("WeaponJourneyDB")

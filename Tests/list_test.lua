@@ -1,7 +1,7 @@
 -- BuildList -- the one pipeline behind both the bar text and the tooltip body.
 -- Run from project root: lua Tests/list_test.lua
 
-local H = dofile("Tests/harness.lua")
+local H = dofile("Tools/HonourBound/harness.lua")
 local Engine = dofile("WeaponJourneyEngine.lua")
 local C = Engine.COLORS
 

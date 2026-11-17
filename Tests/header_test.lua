@@ -2,7 +2,7 @@
 -- weapon-skills category among the client's skill-line headers.
 -- Run from project root: lua Tests/header_test.lua
 
-local H = dofile("Tests/harness.lua")
+local H = dofile("Tools/HonourBound/harness.lua")
 local Engine = dofile("WeaponJourneyEngine.lua")
 
 H.start("Weapon-skill header detection")

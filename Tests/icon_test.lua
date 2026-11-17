@@ -1,7 +1,7 @@
 -- IconPath / IconMarkup -- name-to-texture folding and the inline escape.
 -- Run from project root: lua Tests/icon_test.lua
 
-local H = dofile("Tests/harness.lua")
+local H = dofile("Tools/HonourBound/harness.lua")
 local Engine = dofile("WeaponJourneyEngine.lua")
 
 H.start("Skill icons")
